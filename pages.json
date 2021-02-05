@@ -1,0 +1,98 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/applyOnline/index",
+			"style": {
+				"navigationBarTitleText": "申请通行证"
+			}
+		},
+		{
+			"path": "pages/applyRecord/index",
+			"style": {
+				"navigationBarTitleText": "申请记录查询",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/applyRecord/detail",
+			"style": {
+				"navigationBarTitleText": "申请记录详情"
+			}
+		},
+		{
+			"path": "pages/applyLines/index",
+			"style": {
+				"navigationBarTitleText": "选择申请路线"
+			}
+		},
+		{
+			"path": "pages/applyTimes/index",
+			"style": {
+				"navigationBarTitleText": "选择通行时段"
+			}
+		},
+		{
+			"path": "pages/applyAbout/index",
+			"style": {
+				"navigationBarTitleText": "申请须知"
+			}
+		},
+		{
+			"path": "pages/inputCarNum/index",
+			"style": {
+				"navigationBarTitleText": "申请记录查询"
+			}
+		},
+		{
+			"path": "pages/applyRecord/lisence",
+			"style": {
+				"navigationBarTitleText": "电子通行证"
+			}
+		},
+		{
+			"path": "pages/applySuccess/index",
+			"style": {
+				"navigationBarTitleText": "申请通行证"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom", // 自定义导航栏
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+	// "tabBar": {
+	//     "color": "#909399",
+	//     "selectedColor": "#303133",
+	//     "borderStyle": "black",
+	//     "backgroundColor": "#ffffff",
+	//     "list": [{
+	//         "pagePath": "pages/index/index",
+	//         "iconPath": "static/index.png",
+	//         "selectedIconPath": "static/index-selected.png",
+	//         "text": "首页"
+	//     }, {
+	//         "pagePath": "pages/center/index",
+	//         "iconPath": "static/center.png",
+	//         "selectedIconPath": "static/center-selected.png",
+	//         "text": "我"
+	//     }]
+	// }
+}
